@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btm_nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/btm_nav_contactus"
+        android:title="Calendar"
+        android:icon="@drawable/ic_calendar" />
+
+    <item
+        android:id="@+id/btm_nav_trends"
+        android:icon="@drawable/ic_map"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/btm_nav_about"
+        android:title="Info"
+        android:icon="@drawable/ic_info" />
+
+    <item
+        android:id="@+id/btm_nav_setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings" />
+
+
+</menu>

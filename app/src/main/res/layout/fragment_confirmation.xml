@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Confirmation_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="15dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".Confirmation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Confirm Your Report"
+            android:textAlignment="center"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Location:"
+            android:textColor="@color/home_text"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/conf_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sinza Mori"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C14CAF50"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Date:"
+            android:textColor="@color/home_text"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/conf_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="12/04/2022"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C14CAF50"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Time:"
+            android:textColor="@color/home_text"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/conf_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="16:46"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C14CAF50"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Waste Type:"
+            android:textColor="@color/home_text"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/conf_wastetype1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DOMESTIC"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/conf_wastetype2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/conf_wastetype3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/conf_wastetype4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/conf_wastetype5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/conf_wastetype6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="13dp"
+            android:backgroundTint="@color/accent"
+            android:text="Confirm"
+            android:textColor="@color/background_color"
+            app:cornerRadius="20dp"
+            app:elevation="10dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

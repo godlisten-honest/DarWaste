@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Timepickup_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="15dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".Timepickup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="60dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="When are we picking up"
+            android:textAlignment="center"
+            android:textColor="@color/home_text"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/timepickup_date"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_dialog"
+            android:drawableRight="@drawable/ic_calendarr"
+            android:drawableTint="@color/input_holder"
+            android:ems="10"
+            android:elevation="5dp"
+            android:focusable="false"
+            android:padding="10dp"
+            android:hint="Date"
+            android:inputType="none"
+            android:shadowColor="#151414"
+            android:textColor="@color/home_text"
+            android:textColorHint="@color/input_holder" />
+
+        <EditText
+            android:id="@+id/timepickup_time"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_dialog"
+            android:drawableRight="@drawable/ic_time"
+            android:drawableTint="@color/input_holder"
+            android:ems="10"
+            android:focusable="false"
+            android:elevation="5dp"
+            android:padding="10dp"
+            android:hint="Time"
+            android:inputType="none"
+            android:shadowColor="#151414"
+            android:textColor="@color/home_text"
+            android:textColorHint="@color/input_holder" />
+
+        <Button
+            android:id="@+id/timepickup_button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:backgroundTint="@color/accent"
+            android:text="Next"
+            android:textColor="@color/background_color"
+            app:cornerRadius="20dp"
+            android:shadowColor="#151414"
+            app:elevation="10dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
